@@ -21,5 +21,13 @@
   "upload_type": "software",
   "version": "1.0.0",
   "publication_date": "2026-09-15",
+  "doi": "10.5281/zenodo.22771220",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/perez2103/laron-protection-index",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
   "notes": "Sole author: Juan José Pérez Cervera (ORCID 0000-0002-2657-6695), no institutional affiliation. No specific funding supported this work. The author declares no competing interests and accepts full responsibility for the accuracy and integrity of the work."
 }
