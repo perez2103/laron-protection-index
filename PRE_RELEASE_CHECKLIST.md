@@ -21,6 +21,7 @@
 - [x] Code license selected (MIT).
 - [x] Release notes and release guide present.
 - [x] Repository SHA-256 manifest generated for the frozen local archive.
+- [x] GitHub Actions reproducibility audit passes on `main`.
 
 ## Author/admin items
 
@@ -28,6 +29,10 @@
 - [x] Author metadata populated in `CITATION.cff` (Juan José Pérez Cervera; ORCID 0000-0002-2657-6695).
 - [x] Creator metadata populated in `.zenodo.json`.
 - [x] Final public GitHub repository URL: `https://github.com/perez2103/laron-protection-index`.
-- [ ] Insert final Zenodo DOI in manuscript Code availability after archival.
+- [x] Zenodo DOI reserved: `10.5281/zenodo.22771220`.
+- [x] Reserved DOI inserted into repository metadata and pre-publication manuscript package.
+- [ ] Replace the draft Zenodo upload with the DOI-enriched v1.0.0 package and publish the record.
+- [ ] After publication, verify DOI resolution and update wording from `reserved` to `archived/available` in the final submission files.
+- [ ] Create GitHub release/tag `v1.0.0` after Zenodo publication.
 - [x] Final author list/order confirmed: Juan José Pérez Cervera is the sole author; no institutional affiliation; no competing interests; no specific funding.
 - [x] Juan José Pérez Cervera approved the manuscript on 2026-09-15 and accepts responsibility for the accuracy and integrity of the work.
