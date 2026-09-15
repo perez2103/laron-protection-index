@@ -1,7 +1,5 @@
 # LPI reproducibility repository
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22771220.svg)](https://doi.org/10.5281/zenodo.22771220)
-
 Reproducible computational workflows for the manuscript:
 
 **A Laron inspired molecular state shows attenuated AKT mTOR signaling without targetable cancer vulnerability**
@@ -75,16 +73,9 @@ See [`audit/AUDIT_REPORT.md`](audit/AUDIT_REPORT.md).
 
 ## Public GitHub versus full archived snapshot
 
-This GitHub repository is intentionally **lightweight and executable**. It contains:
+This GitHub repository is intentionally **lightweight and executable**. It contains frozen definitions, analysis/audit scripts, raw-input hashes and acquisition instructions, iLINCS notebooks, compact source tables, and canonical audit records.
 
-- frozen definitions and analysis plan;
-- analysis/audit scripts;
-- exact raw-input SHA-256 manifest and acquisition instructions;
-- iLINCS API notebooks and compact robustness source data;
-- TCGA cancer-level source tables used to recalculate the manuscript meta-analyses;
-- canonical result summaries and audit records.
-
-Large third-party raw datasets are not redistributed. Large processed matrices, raw API payloads, binary manuscript files, rendered figures and the complete frozen result snapshot are retained in the **Zenodo v1.0.0 archive** at DOI **10.5281/zenodo.22771220**.
+Large third-party raw datasets are not redistributed. The complete v1.0.0 reproducibility package has been prepared for Zenodo under the **reserved DOI `10.5281/zenodo.22771220`**. The DOI will become the permanent archive identifier when the Zenodo draft is published.
 
 ## Repository layout
 
@@ -100,15 +91,7 @@ audit/                  Audit report and generated audit tables
 
 ## Environment
 
-Audited environment:
-
-- Python 3.13.5
-- NumPy 2.3.5
-- pandas 2.2.3
-- SciPy 1.17.0
-- statsmodels 0.14.6
-- Matplotlib 3.10.8
-- openpyxl 3.1.5
+Audited environment: Python 3.13.5; NumPy 2.3.5; pandas 2.2.3; SciPy 1.17.0; statsmodels 0.14.6; Matplotlib 3.10.8; openpyxl 3.1.5.
 
 Install:
 
@@ -120,8 +103,6 @@ pip install -r environment/requirements.txt
 
 ## Verify the lightweight checkout
 
-The public source tables are sufficient to recalculate the key iLINCS robustness counts and the three TCGA meta-analyses:
-
 ```bash
 python src/audit_external_outputs.py --repo .
 python src/audit_canonical.py --repo .
@@ -130,53 +111,21 @@ python -m py_compile src/*.py
 
 ## Full raw-data rerun
 
-Download the exact release-specific files described in [`data/README.md`](data/README.md), place them in a local directory, and verify them first:
-
-```bash
-python src/verify_raw_inputs.py --repo . --data-dir /path/to/raw/data
-```
-
-Then rerun the deterministic cell-line layers:
-
-```bash
-python src/phase2b_crispr.py \
-  --data-dir /path/to/raw/data \
-  --out-dir results/phase2b
-
-python src/phase3a_pharmacogenomics.py \
-  --data-dir /path/to/raw/data \
-  --out-dir results/phase3a_pharmacogenomics
-```
-
-After those full tables are regenerated (or restored from the archived v1.0.0 snapshot), figures can be rebuilt with:
-
-```bash
-python src/make_figures.py
-```
+Download the exact release-specific files described in [`data/README.md`](data/README.md), verify them with `src/verify_raw_inputs.py`, and then run `src/phase2b_crispr.py` and `src/phase3a_pharmacogenomics.py` as documented in the repository.
 
 ## External-query workflows
 
 - `notebooks/01_iLINCS_API_v2.ipynb` — frozen full-signature LIB_6/LIB_5 query.
 - `notebooks/02_iLINCS_leave_one_landmark_out.ipynb` — leave-one-landmark-out control.
-- the exact TCGA PanCanAtlas v3 retrieval notebook is preserved in the complete v1.0.0 Zenodo archive; cancer-level paper source tables are versioned here for independent meta-analysis.
-
-For a paper-exact rerun, compare fresh external-service outputs against the versioned release rather than silently replacing them.
-
-## Raw-data integrity
-
-`data/raw_manifest.csv` records SHA-256 hashes for every original raw/downloaded input used in the audit. These hashes identify the exact DepMap, PRISM, GDSC, iLINCS and TCGA inputs underlying v1.0.0.
+- the exact TCGA PanCanAtlas v3 retrieval notebook is preserved in the complete v1.0.0 Zenodo package; cancer-level paper source tables are versioned here for independent meta-analysis.
 
 ## Release and citation
 
 Version: **v1.0.0**  
 Repository: https://github.com/perez2103/laron-protection-index  
-Archived reproducibility package: https://doi.org/10.5281/zenodo.22771220  
-DOI: **10.5281/zenodo.22771220**
+Reserved Zenodo DOI: **10.5281/zenodo.22771220**
 
-Release notes: [`RELEASE_NOTES_v1.0.0.md`](RELEASE_NOTES_v1.0.0.md)  
-Release/deposition guide: [`GITHUB_ZENODO_RELEASE_GUIDE.md`](GITHUB_ZENODO_RELEASE_GUIDE.md)
-
-The DOI is recorded in `CITATION.cff`. Version v1.0.0 will not be overwritten; subsequent changes will use a new semantic version.
+The DOI is recorded in `CITATION.cff`. After the Zenodo draft is published, this README will be updated to link the permanent archived record and DOI badge.
 
 ## Author
 
