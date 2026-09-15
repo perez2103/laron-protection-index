@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated manuscript and archived release."
+message: "If you use this software, please cite the archived release."
 title: "LPI reproducibility repository"
 type: software
 authors:
@@ -10,5 +10,7 @@ authors:
 version: 1.0.0
 license: MIT
 date-released: 2026-09-15
+doi: "10.5281/zenodo.22771220"
+url: "https://doi.org/10.5281/zenodo.22771220"
 repository-code: "https://github.com/perez2103/laron-protection-index"
 abstract: "Reproducible analysis workflows for a Laron-inspired molecular state across DepMap, pharmacogenomics, iLINCS and TCGA."
