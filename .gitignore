@@ -1,0 +1,10 @@
+# Raw public datasets are intentionally not versioned
+/data/raw/
+*.xlsx
+*.xls
+*.npy
+*.parquet
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.cache/

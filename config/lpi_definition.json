@@ -1,0 +1,8 @@
+{
+  "name": "Laron Protection Index (historical project name)",
+  "interpretation": "Laron-inspired signaling-state score; not a validated clinical protection biomarker",
+  "axis_genes": ["GHR","IGF1","IGF1R","IRS1","IRS2","PIK3CA","PIK3CB","PDPK1","AKT1","AKT2","MTOR","RPTOR","RPS6KB1","EIF4EBP1"],
+  "foxo_output_genes": ["BCL2L11","CDKN1B","GADD45A","SESN3","SOD2","CAT"],
+  "formula": "0.5*(-mean z(axis)) + 0.5*(mean z(FOXO output)), then z-standardized within lineage/cancer type",
+  "proliferation_genes": ["MKI67","PCNA","MCM2","MCM3","MCM4","MCM5","MCM6","MCM7","CDK1","CCNB1","TOP2A","UBE2C","CDC20"]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Reproducible analysis code for a Laron-inspired molecular state in cancer",
+  "description": "Code, frozen analysis definitions, processed source tables and audit materials for the LPI study.",
+  "creators": [
+    {
+      "name": "Pérez Cervera, Juan José",
+      "orcid": "0000-0002-2657-6695"
+    }
+  ],
+  "keywords": [
+    "Laron syndrome",
+    "GH-IGF",
+    "PI3K-AKT-mTOR",
+    "DepMap",
+    "LINCS",
+    "TCGA",
+    "cancer systems biology",
+    "reproducibility"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "publication_date": "2026-09-15",
+  "notes": "Sole author: Juan José Pérez Cervera (ORCID 0000-0002-2657-6695), no institutional affiliation. No specific funding supported this work. The author declares no competing interests and accepts full responsibility for the accuracy and integrity of the work."
+}

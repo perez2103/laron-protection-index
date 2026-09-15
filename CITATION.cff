@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and archived release."
+title: "LPI reproducibility repository"
+type: software
+authors:
+  - family-names: "Pérez Cervera"
+    given-names: "Juan José"
+    orcid: "https://orcid.org/0000-0002-2657-6695"
+    email: "septiembre2103@hotmail.com"
+version: 1.0.0
+license: MIT
+date-released: 2026-09-15
+repository-code: "https://github.com/perez2103/laron-protection-index"
+abstract: "Reproducible analysis workflows for a Laron-inspired molecular state across DepMap, pharmacogenomics, iLINCS and TCGA."

@@ -1,0 +1,18 @@
+{
+  "depmap_release": "DepMap Public 24Q2",
+  "solid_lineages": ["Lung","CNS/Brain","Skin","Esophagus/Stomach","Bowel","Head and Neck","Ovary/Fallopian Tube","Breast","Pancreas","Soft Tissue","Biliary Tract","Bladder/Urinary Tract","Peripheral Nervous System","Uterus","Bone","Kidney","Liver","Pleura","Cervix","Eye"],
+  "discovery_definition": {
+    "breast": "OncotreePrimaryDisease == Invasive Breast Carcinoma",
+    "luad": "OncotreeCode == LUAD",
+    "coadread": "OncotreePrimaryDisease == Colorectal Adenocarcinoma"
+  },
+  "crispr_gene_coverage_min_fraction": 0.90,
+  "crispr_model": "GeneEffect ~ LPI + lineage + proliferation",
+  "multiple_testing": "Benjamini-Hochberg",
+  "validation_gate": "discovery q<0.05 + same direction and q<0.05 in non-overlap and lineage-held-out validation + robustness + empirical max-T FWER<0.05",
+  "pharmacogenomic_model": "response ~ LPI + lineage + proliferation",
+  "pharmacogenomic_min_n": 100,
+  "pharmacogenomic_min_lineages": 5,
+  "predefined_drug_families": ["IGF1R","PI3K","AKT","mTOR"],
+  "random_seed": 20260915
+}
