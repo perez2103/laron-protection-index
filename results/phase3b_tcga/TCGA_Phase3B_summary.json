@@ -1,0 +1,50 @@
+{
+  "primary_solid_samples": 9632,
+  "cancer_types": 31,
+  "proliferation_meta": {
+    "k": 27,
+    "beta": -0.012354814520242978,
+    "se": 0.023780870748948506,
+    "z": -0.5195274239816999,
+    "p": 0.6033929939638071,
+    "tau2": 0.01076344239188013,
+    "I2": 76.04646140380805,
+    "positive": 15,
+    "negative": 12
+  },
+  "proliferation_purity_residualized_meta": {
+    "k": 27,
+    "beta": -0.01281872507031302,
+    "se": 0.023775022587295035,
+    "z": -0.5391677346781208,
+    "p": 0.5897711214898727,
+    "tau2": 0.01061031256729692,
+    "I2": 74.97874624885587,
+    "positive": 15,
+    "negative": 12
+  },
+  "rppa_meta": {
+    "k": 27,
+    "beta": -0.038265157439967036,
+    "se": 0.011273404453407361,
+    "z": -3.394285869731346,
+    "p": 0.000688078259523867,
+    "tau2": 0.0015659698945900786,
+    "I2": 51.74804862600273,
+    "positive": 6,
+    "negative": 21
+  },
+  "random_signature_empirical_p_proliferation": 0.5742574257425742,
+  "n_random_signatures_evaluable": 100,
+  "rppa_antibodies": [
+    "X4EBP1_pS65",
+    "X4EBP1_pT37T46",
+    "AKT_pS473",
+    "AKT_pT308",
+    "MTOR_pS2448",
+    "S6_pS235S236",
+    "S6_pS240S244",
+    "X4EBP1_pT70"
+  ],
+  "survival_models_exploratory": 15
+}

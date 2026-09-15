@@ -1,0 +1,26 @@
+{
+  "seed": 20260915,
+  "pan_solid_n": 914,
+  "lineages": 20,
+  "discovery_n": 152,
+  "validation_nonoverlap_n": 762,
+  "validation_lineage_heldout_n": 688,
+  "genes_tested": 17787,
+  "coverage_threshold_n": 823,
+  "pan_q_lt_0_05": 6,
+  "discovery_q_lt_0_05": 0,
+  "validation_q_lt_0_05": 4,
+  "heldout_q_lt_0_05": 3,
+  "final_gate_count": 0,
+  "observed_max_abs_t": 4.71470308007159,
+  "permutation_maxT_empirical_p": 0.05647840531561462,
+  "random_signature_maxT_empirical_p": 0.9603960396039604,
+  "n_permutations": 300,
+  "n_random_signatures": 100,
+  "ncoa4": {
+    "beta": -0.03384807530836768,
+    "p": 9.62715726510109e-05,
+    "q": 0.11152022674870067,
+    "partial_r2": 0.016914692913055234
+  }
+}

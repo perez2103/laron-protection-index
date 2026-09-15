@@ -1,0 +1,5 @@
+layer,check,status,detail
+Phase2B,canonical summary,PASS,"{""checks"": {""pan_solid_n"": [914, 914], ""discovery_n"": [152, 152], ""validation_nonoverlap_n"": [762, 762], ""validation_lineage_heldout_n"": [688, 688], ""genes_tested"": [17787, 17787], ""final_gate_count"": [0, 0], ""seed"": [20260915, 20260915]}, ""maxT_p"": 0.05647840531561462, ""random_signature_p"": 0.9603960396039604}"
+Phase3A,canonical pharmacogenomic summary,PASS,"{""prism_models"": 637, ""prism_compounds"": 6790, ""prism_global_q05"": 0, ""prism_family_q05"": 0, ""gdsc1_models_overlap"": 448, ""gdsc1_drugs"": 402, ""gdsc1_global_q05"": 0, ""gdsc1_family_q05"": 1, ""gdsc2_models_overlap"": 447, ""gdsc2_drugs"": 295, ""gdsc2_global_q05"": 0, ""gdsc2_family_q05"": 0}"
+Phase3A,canonical FDR gate counts,PASS,"{""PRISM_global"": 0, ""PRISM_family"": 0, ""GDSC1_global"": 0, ""GDSC1_family"": 1, ""GDSC2_global"": 0, ""GDSC2_family"": 0}"
+External,iLINCS/TCGA processed-output audit,PASS,18 checks; failures=0

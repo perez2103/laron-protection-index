@@ -1,0 +1,24 @@
+{
+  "prism_models": 637,
+  "prism_compounds": 6790,
+  "prism_family_compounds": 129,
+  "prism_global_q05": 0,
+  "prism_family_q05": 0,
+  "gdsc1_models_overlap": 448,
+  "gdsc1_drugs": 402,
+  "gdsc1_global_q05": 0,
+  "gdsc1_family_q05": 1,
+  "gdsc2_models_overlap": 447,
+  "gdsc2_drugs": 295,
+  "gdsc2_global_q05": 0,
+  "gdsc2_family_q05": 0,
+  "exact_cross_platform_rows": 41,
+  "AS605240_GDSC1": {
+    "beta": 0.250277541002475,
+    "p": 0.0008091259027839,
+    "q_family": 0.0331741620141409,
+    "q_global": 0.1964121883409215,
+    "n": 434
+  },
+  "audit_note": "Model counts are total LPI-scored models overlapping each platform; per-compound n varies because of missing screening observations."
+}
