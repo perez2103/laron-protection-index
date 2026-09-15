@@ -20,15 +20,14 @@
 - [x] Audit scripts return PASS.
 - [x] Code license selected (MIT).
 - [x] Release notes and release guide present.
-- [x] Repository SHA-256 manifest generated.
+- [x] Repository SHA-256 manifest generated for the frozen local archive.
 
-## Author/admin items still required
+## Author/admin items
 
 - [x] Corresponding-author email recorded: `septiembre2103@hotmail.com`.
-
-- [x] Replace author placeholders in `CITATION.cff` (Juan José Pérez Cervera; ORCID 0000-0002-2657-6695).
-- [x] Replace creator placeholders in `.zenodo.json` (Juan José Pérez Cervera; ORCID 0000-0002-2657-6695).
-- [ ] Insert final GitHub repository URL.
-- [ ] Insert final Zenodo DOI in manuscript Code availability.
+- [x] Author metadata populated in `CITATION.cff` (Juan José Pérez Cervera; ORCID 0000-0002-2657-6695).
+- [x] Creator metadata populated in `.zenodo.json`.
+- [x] Final public GitHub repository URL: `https://github.com/perez2103/laron-protection-index`.
+- [ ] Insert final Zenodo DOI in manuscript Code availability after archival.
 - [x] Final author list/order confirmed: Juan José Pérez Cervera is the sole author; no institutional affiliation; no competing interests; no specific funding.
 - [x] Juan José Pérez Cervera approved the manuscript on 2026-09-15 and accepts responsibility for the accuracy and integrity of the work.
