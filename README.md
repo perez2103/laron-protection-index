@@ -71,11 +71,11 @@ The reproducibility audit identified two historical working exports from an earl
 
 See [`audit/AUDIT_REPORT.md`](audit/AUDIT_REPORT.md).
 
-## Public GitHub versus full archived snapshot
+## Public GitHub versus archived snapshot
 
 This GitHub repository is intentionally **lightweight and executable**. It contains frozen definitions, analysis/audit scripts, raw-input hashes and acquisition instructions, iLINCS notebooks, compact source tables, and canonical audit records.
 
-Large third-party raw datasets are not redistributed. The complete v1.0.0 reproducibility package has been prepared for Zenodo under the **reserved DOI `10.5281/zenodo.22771220`**. The DOI will become the permanent archive identifier when the Zenodo draft is published.
+Large third-party raw datasets are not redistributed. The complete v1.0.0 reproducibility package is archived on Zenodo under DOI **`10.5281/zenodo.22771220`**.
 
 ## Repository layout
 
@@ -123,9 +123,10 @@ Download the exact release-specific files described in [`data/README.md`](data/R
 
 Version: **v1.0.0**  
 Repository: https://github.com/perez2103/laron-protection-index  
-Reserved Zenodo DOI: **10.5281/zenodo.22771220**
+Zenodo DOI: **10.5281/zenodo.22771220**  
+DOI URL: https://doi.org/10.5281/zenodo.22771220
 
-The DOI is recorded in `CITATION.cff`. After the Zenodo draft is published, this README will be updated to link the permanent archived record and DOI badge.
+The version DOI is recorded in `CITATION.cff`. The GitHub tag/release `v1.0.0` should point to the frozen manuscript-linked repository state.
 
 ## Author
 
