@@ -1,5 +1,7 @@
 # LPI reproducibility repository
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22771220.svg)](https://doi.org/10.5281/zenodo.22771220)
+
 Reproducible computational workflows for the manuscript:
 
 **A Laron inspired molecular state shows attenuated AKT mTOR signaling without targetable cancer vulnerability**
@@ -82,7 +84,7 @@ This GitHub repository is intentionally **lightweight and executable**. It conta
 - TCGA cancer-level source tables used to recalculate the manuscript meta-analyses;
 - canonical result summaries and audit records.
 
-Large third-party raw datasets are not redistributed. Large processed matrices, raw API payloads, binary manuscript files, rendered figures and the complete frozen result snapshot are retained in the **Zenodo v1.0.0 archive**. The DOI will be added here after archival.
+Large third-party raw datasets are not redistributed. Large processed matrices, raw API payloads, binary manuscript files, rendered figures and the complete frozen result snapshot are retained in the **Zenodo v1.0.0 archive** at DOI **10.5281/zenodo.22771220**.
 
 ## Repository layout
 
@@ -167,12 +169,14 @@ For a paper-exact rerun, compare fresh external-service outputs against the vers
 ## Release and citation
 
 Version: **v1.0.0**  
-Repository: https://github.com/perez2103/laron-protection-index
+Repository: https://github.com/perez2103/laron-protection-index  
+Archived reproducibility package: https://doi.org/10.5281/zenodo.22771220  
+DOI: **10.5281/zenodo.22771220**
 
 Release notes: [`RELEASE_NOTES_v1.0.0.md`](RELEASE_NOTES_v1.0.0.md)  
 Release/deposition guide: [`GITHUB_ZENODO_RELEASE_GUIDE.md`](GITHUB_ZENODO_RELEASE_GUIDE.md)
 
-The permanent **Zenodo DOI is pending**. Once minted, v1.0.0 will not be overwritten; subsequent changes will use a new semantic version.
+The DOI is recorded in `CITATION.cff`. Version v1.0.0 will not be overwritten; subsequent changes will use a new semantic version.
 
 ## Author
 
