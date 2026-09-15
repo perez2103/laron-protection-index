@@ -34,27 +34,18 @@ See `audit/AUDIT_REPORT.md` for the full audit trail.
 
 ## Administrative metadata completion (15 September 2026)
 
-- Added Juan José Pérez Cervera as the currently listed author.
-- Added ORCID `0000-0002-2657-6695`.
-- Recorded no institutional affiliation and no declared competing interests.
-- Recorded author approval of the manuscript.
-- Added Nature Portfolio-compatible disclosure of substantive generative-AI assistance.
+- Confirmed Juan José Pérez Cervera as sole author.
+- Added ORCID `0000-0002-2657-6695` and corresponding email `septiembre2103@hotmail.com`.
+- Confirmed no institutional affiliation, no specific funding and no competing interests.
+- Recorded author approval and responsibility for accuracy, integrity and accountability.
+- Added disclosure of substantive generative-AI assistance.
 - These are metadata/transparency changes only; no scientific results, thresholds, seeds or conclusions changed.
 
-## Final author/funding metadata completion (15 September 2026)
+## Public archive
 
-- Confirmed Juan José Pérez Cervera as the sole author.
-- Added corresponding email `septiembre2103@hotmail.com`.
-- Confirmed no institutional affiliation.
-- Confirmed no specific funding supported the work.
-- Confirmed no competing interests.
-- Recorded explicit author acceptance of responsibility for the accuracy, integrity and accountability of the work.
-- Updated manuscript and cover-letter author metadata.
-- These are administrative/transparency changes only; no scientific results, thresholds, seeds, figures or conclusions changed.
+- Public GitHub repository: https://github.com/perez2103/laron-protection-index
+- Zenodo version DOI: https://doi.org/10.5281/zenodo.22771220
+- The manuscript Code availability statement cites both public identifiers.
+- No scientific results, thresholds, seeds or conclusions were altered during archival.
 
-## GitHub repository created (15 September 2026)
-
-- Public repository: https://github.com/perez2103/laron-protection-index
-- Repository URL inserted into citation and documentation metadata.
-- Zenodo DOI remains pending until archival.
-- No scientific results, thresholds, seeds or conclusions changed.
+After publication of the GitHub tag/release `v1.0.0`, this version should remain immutable; later corrections should use a new semantic version.
