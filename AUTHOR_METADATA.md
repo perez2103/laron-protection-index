@@ -9,12 +9,9 @@
 - **Manuscript approval:** Approved by Juan José Pérez Cervera on 15 September 2026
 - **Accountability:** Juan José Pérez Cervera confirms sole authorship and accepts full responsibility for the accuracy, integrity and accountability of the work.
 
-## Remaining before public deposition/submission
+## Public identifiers
 
-Only the remaining identifier below does not yet exist:
+- GitHub repository: https://github.com/perez2103/laron-protection-index
+- Zenodo version DOI: https://doi.org/10.5281/zenodo.22771220
 
-- Zenodo version DOI minted from release `v1.0.0`
-
-Public GitHub repository: https://github.com/perez2103/laron-protection-index
-
-No additional author, affiliation, funding, conflict-of-interest or responsibility metadata are pending.
+No additional author, affiliation, funding, conflict-of-interest, responsibility or identifier metadata are pending for the manuscript-linked v1.0.0 archive.
